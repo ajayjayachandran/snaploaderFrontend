@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 function Footer() {
   return (
-    <div className="footer p-4 " style={{ background: '#f0f0f0', position: 'relative', bottom: '0', width: '100%' }}>
+    <div className="footer p-4 " style={{ background: '#bbdefeng', position: 'relative', bottom: '0', width: '100%' }}>
       <div className="row">
         <div className="row ">
           <div className="col-md-12 text-center d-flex justify-content-between">

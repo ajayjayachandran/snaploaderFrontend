@@ -21,7 +21,7 @@ function Profile() {
                         <input type="text" className='form-control' placeholder='Drive' />
                     </div>
                     <div className='mb-3'>
-                        <input type="text" className='form-control' placeholder='Pintrest' />
+                        <input type="text" className='form-control' placeholder='Pinterest' />
                     </div>
                     <div className='mb-3'>
                         <button className='btn btn-success rounded w-100'>Update</button>
