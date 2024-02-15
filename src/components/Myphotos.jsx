@@ -52,7 +52,7 @@ function Myphotos() {
   }
 
   return (
-    <div className='card shadow p-5 ms-3 me-3 mb-5'>
+  <div style={{backgroundImage: `url("https://images.rawpixel.com/image_800/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvcm00OTQtYmctMDE4Yy14LmpwZw.jpg")`}} className='card shadow p-5 ms-3 me-3 mb-5'>
       <div className='d-flex'>
         <h3 className='text-success ms-3'>My Snaps</h3>
         <div className='ms-auto'>

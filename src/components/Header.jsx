@@ -18,7 +18,7 @@ function Header({ Dashboard }) {
   }
   return (
 
-    <Navbar className=" p-3" style={{ background: '#bbdefe' }}>
+    <Navbar className=" p-3" style={{ backgroundImage: `url("https://images.rawpixel.com/image_800/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvcGRmbG93ZXJzZXQxNmJhdGNoMi1hZGotMjFiLWxlYXZlc18xLmpwZw.jpg")` }}>
       <Container>
         <Navbar.Brand className='text-light'>
           <Link to={'/'} style={{ textDecoration: 'none' }} className='text-light'>

@@ -115,7 +115,7 @@ function EditPhoto({ photos }) {
                 centered
             >
                 <Modal.Header closeButton>
-                    <Modal.Title>Edit Project Details</Modal.Title>
+                    <Modal.Title >Edit Project Details</Modal.Title>
                 </Modal.Header>
                 <Modal.Body>
                     <div className="row">

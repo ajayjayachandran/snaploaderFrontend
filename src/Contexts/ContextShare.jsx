@@ -17,7 +17,7 @@ function ContextShare({children}) {
 
     const [editPhotosResponse,setEditPhotoResponse] = useState({})
 
-    const [isAuthToken, setIsAuthToken] = useState(false)
+    const [isAuthToken, setIsAuthToken] = useState(true)
 
   return (
     <>

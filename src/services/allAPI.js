@@ -46,3 +46,9 @@ export const deletePhotoAPI = async(photosId,reqHeader)=>{
    //path parameter - :id - router
    return await commonAPI("DELETE",`${BASE_URL}/photos/remove/${photosId}`,{},reqHeader)
 }
+
+//edit profile
+export const updateProfileAPI = async(reqBody,reqHeader)=>{
+   //path parameter - :id - router
+   return await commonAPI("PUT",`${BASE_URL}/user/update`,reqBody,reqHeader)
+}

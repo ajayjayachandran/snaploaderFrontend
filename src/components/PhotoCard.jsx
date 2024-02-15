@@ -44,7 +44,7 @@ function PhotoCard({photos}) {
                         <Col md={6}>
                             <h1 className='text-decoration-underline'>Discription</h1>
                             <p>{photos.overview}</p>
-                            <p><span className='fw-bolder'>Device :</span> {photos.type}</p>
+                            <p><span className='fw-bolder'>Style :</span> {photos.type}</p>
                         </Col>
                     </Row>
                     <div className='d-flex  mb-3'>
